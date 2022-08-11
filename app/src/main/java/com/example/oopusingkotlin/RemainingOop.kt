@@ -4,6 +4,7 @@ import android.graphics.ColorSpace
 
 fun main(){
     var mustafa = Person("Mustafa","Anis",32)
+
     mustafa.age = 35
     println("Mustafa is ${mustafa.age} years old")
     mustafa.stateHobby()

@@ -2,12 +2,12 @@ package com.example.oopusingkotlin
 
 import android.graphics.ColorSpace
 
-fun main(){
-    var mustafa = Person("Mustafa","Anis",32)
-
-    mustafa.age = 35
-    println("Mustafa is ${mustafa.age} years old")
-    mustafa.stateHobby()
+//fun main(){
+//    var mustafa = Person("Mustafa","Anis",32)
+//
+//    mustafa.age = 35
+//    println("Mustafa is ${mustafa.age} years old")
+//    mustafa.stateHobby()
 
 
 
@@ -19,7 +19,7 @@ fun main(){
 //    john.stateHobby()
 //    var johncorner = Person(lastName = "petterson")
 
-}
+//}
 class Person(firstName: String = "john", lastName: String = "Doe"){
     var age : Int? = null
     var hobby : String = "Watch Netflix"

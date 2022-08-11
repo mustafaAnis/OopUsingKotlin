@@ -40,20 +40,20 @@ class electricCar(maxSpeed: Double,name: String, brand: String, batteryLife: Dou
         println("print inside of a electric car")
     }
 }
-fun main(){
-    var audiA3 = Car(20.20,"A3","Audi")
-    var teslaS = electricCar(30.30,"S-Model","Tesla",85.0)
-
-
-    teslaS.extendRange(200.0)
-    teslaS.chargerType = "Type2"
-
-//    teslaS.drive()
-
-    teslaS.brake()
-    audiA3.brake()
+//fun main(){
+//    var audiA3 = Car(20.20,"A3","Audi")
+//    var teslaS = electricCar(30.30,"S-Model","Tesla",85.0)
+//
+//
+//    teslaS.extendRange(200.0)
+//    teslaS.chargerType = "Type2"
+//
+////    teslaS.drive()
+//
+//    teslaS.brake()
+//    audiA3.brake()
 
 //    audiA3.drive(200.0)
 //    teslaS.drive(200.0)
-}
+//}
 //update

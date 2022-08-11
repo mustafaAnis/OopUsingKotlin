@@ -38,7 +38,7 @@ class Elephant(name: String, origin: String, weight: Double, override var maxSpe
 
     override fun run() {
         println("run on four legs")
-
+//mustafa
     }
 
 
